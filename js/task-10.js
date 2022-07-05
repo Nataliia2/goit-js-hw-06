@@ -1,3 +1,8 @@
+const inputEl = document.querySelector('input');
+const btnCreate = document.querySelector('button[data-create]');
+const btnDestroy = document.querySelector('button[data-destroy]');
+const divBoxEl = document.querySelector('#boxes');
+
 btnCreate.addEventListener('click', onCreateBoxes);
  btnDestroy.addEventListener('click', destroyBoxes);
 
